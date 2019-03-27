@@ -4,5 +4,6 @@ var playlist = {
 }
 
 function updatePlaylist(playlist, artist, song) {
-  playlist[eminem] = 'phenomonal'
+  playlist[eminem] = 'phenomonal';
+  return playlist
 }
