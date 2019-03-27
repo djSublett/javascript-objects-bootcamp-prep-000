@@ -3,6 +3,9 @@ var playlist = {
   song: ''
 }
 
+
+// updated my playlist to have eminem as the artist
+// and the song as phenomenal
 function updatePlaylist(playlist, artist, song) {
   playlist[artist] = 'eminem';
   playlist[song] = 'phenomenal';
