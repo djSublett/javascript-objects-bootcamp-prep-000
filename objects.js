@@ -12,6 +12,7 @@ function updatePlaylist(playlist, artist, song) {
   return playlist
 }
 
+// removed the artist from my playlist
 function removeFromPlaylist(playlist, artist) {
   delete playlist[artist];
   return playlist
