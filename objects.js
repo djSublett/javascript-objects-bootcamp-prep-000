@@ -4,9 +4,8 @@ var playlist = {
 }
 
 function updatePlaylist(playlist, artist, song) {
-  playlist[artist] = 'eminem';
-  playlist[song] = 'phenomenal'
-  
+  playlist[artist] = song;
+
 }
 
 function removeFromPlaylist(playlist, artist) {
