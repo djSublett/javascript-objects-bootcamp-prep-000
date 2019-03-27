@@ -1,0 +1,5 @@
+var playlist = {
+  artist: '',
+  song: ''
+}
+
